@@ -1,0 +1,24 @@
+@mixin vp-767 {
+  @media (max-width: $vp-mobile) {
+    @content;
+  }
+}
+
+@mixin vp-1023 {
+  @media (max-width: $vp-tablet) {
+    @content;
+  }
+}
+
+@mixin vp-1304 {
+  @media (min-width: $vp-minidecstop) {
+    @content;
+  }
+}
+
+
+@mixin vp-1536 {
+  @media (min-width: $vp-decstop) {
+    @content;
+  }
+}

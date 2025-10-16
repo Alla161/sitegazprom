@@ -1,0 +1,8 @@
+.checkbox {
+  border: none;
+  padding: 5px 0 0;
+
+  @include vp-1536 {
+    padding: 0;
+  }
+}
